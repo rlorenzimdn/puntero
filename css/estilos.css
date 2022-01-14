@@ -3,7 +3,7 @@
 	padding: 0;
 }
 
-.nav{
+.nav {
   display: flex;
   flex-direction: column;
   background-color: #C85C5C;
@@ -14,7 +14,7 @@
   align-content: flex-end;
 }
 
-.nav__links{
+.nav__links {
   background-color: #F9975D;
   padding: 10px;
   border: solid #B2EA70 3px;
@@ -90,11 +90,23 @@ body {
 
 .grilla .widget-1 {
 	grid-area: widget-1;
+
 }
+
+.widget-1:hover {
+	color: orange;
+	transform: skewY(20deg);
+	animation-delay: 3s;gi
+  }
 
 .grilla .widget-2 {
 	grid-area: widget-2;
 }
+
+.widget-2:hover {
+	display: block;
+  }
+
 
 .grilla .footer {
 	background: #12203E;
